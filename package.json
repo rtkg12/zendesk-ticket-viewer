@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "zendesk-ticket-viewer",
+  "workspaces": [
+    "client", "server"
+  ],
+  "scripts": {
+    "client-start": "yarn workspace client start",
+    "server-start": "yarn workspace server start",
+    "start": "concurrently --kill-others-on-fail \"yarn server-start\"  \"yarn client-start\""
+  },
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  }
+}
