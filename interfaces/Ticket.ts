@@ -1,0 +1,37 @@
+export default interface Ticket {
+  id?: number | null;
+  url?: string | null;
+  external_id?: string | null;
+  via?: any;
+  created_at?: string | null;
+  updated_at?: string | null;
+  type?: string | null;
+  subject?: string | null;
+  raw_subject?: string | null;
+  description?: string | null;
+  priority?: string | null;
+  status?: string | null;
+  recipient?: string | null;
+  requester_id?: number | null;
+  submitter_id?: number | null;
+  assignee_id?: number | null;
+  organization_id?: number | null;
+  group_id?: number | null;
+  collaborator_ids?: any;
+  follower_ids?: any;
+  email_cc_ids?: any;
+  forum_topic_id?: number | null;
+  problem_id?: null;
+  has_incidents?: boolean;
+  is_public?: boolean;
+  due_at?: any;
+  tags?: string[];
+  custom_fields?: any;
+  satisfaction_rating?: number | null;
+  sharing_agreement_ids?: any;
+  fields?: any;
+  followup_ids?: any;
+  brand_id?: number | null;
+  allow_channelback?: boolean;
+  allow_attachments?: boolean;
+}
