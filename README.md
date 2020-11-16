@@ -8,6 +8,17 @@ Technologies/Frameworks used:
 3. Node.js
 4. Express
 
+## Screenshots
+
+Ticket List
+![Ticket List](screenshots/DesktopView.png)
+
+Ticket Details View
+![Ticket View](screenshots/TicketView.png)
+
+Ticket List Full Page
+![Ticket List](screenshots/DesktopFullPage.png)
+
 ## Installation
 1. Clone the repository
 ```
